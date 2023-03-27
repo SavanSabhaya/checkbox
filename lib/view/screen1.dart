@@ -25,7 +25,7 @@ class _Screen1State extends State<Screen1> {
   }
 
   addData(int index) {
-    print("Data addData");
+    print("Data item addData");
     item.add(CheckModel(index, "item $index", true));
   }
 
